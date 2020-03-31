@@ -11,8 +11,16 @@ Since we worked together in multiple indutrial robotic project, we called it Rob
 
 We also participate to the https://www.agorize.com/en/challenges/code-life-challenge?lang=en as Robotic Team.
 
-# High Level
+unfortunately, we could not get all parts to have a working prototype as per 31 march 2020, so we decided to share openly our idea so we can continu to build and improve around the community.
+
+# Mechanical parts
 
 .
 
-# 
+# Electronic parts
+
+# UI / UX interface 
+
+# Software 
+
+
