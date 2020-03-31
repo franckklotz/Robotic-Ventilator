@@ -18,7 +18,7 @@ So please feel free to get inspired from this proposal and do not hesitate to im
 
 # Mechanical parts
 
-The complete 3D parts and assembly is available in the specific folder. 
+The complete 3D parts and assembly is available in the specific folder. The different Ambu clone may have different dimentions but our intent is to design the claws in such way it will fit the different models destinated to support adults.
 It was designed with Solidworks.
 
 you can download a free viewer, edrawing to see the design.
