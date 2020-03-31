@@ -33,6 +33,8 @@ All parts starting with a number, are https://www.mcmaster.com/ parts. You can o
 
 Part 3D printed start with a 3D-xxxx. We have access to a 3D printer using ONYX plastic.
 
+the main component is the stepper motor from https://www.pololu.com/product/2689 , this one is provided with the screw ( selected in design for speed of delivery reason ) but you could buy the same motor and adapt your own screw with this motor https://www.pololu.com/product/2267
+
 # Electronic parts
 
 # UI / UX interface 
