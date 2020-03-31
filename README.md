@@ -25,7 +25,13 @@ you can download a free viewer, edrawing to see the design.
 
 the free viewer will allow you to hide parts ( like cover ) or make some parts transparent, and of course zoom in out, rotate and basic navigation around the mechanical design.
 
+please open the AUTOMATIC AMBU ACTUATOR SYSTEM.SLDASM file to see the assembly.
 
+PARTS :
+
+All parts starting with a number, are https://www.mcmaster.com/ parts. You can oder parts directly from them or find equivalent parts.
+
+Part 3D printed start with a 3D-xxxx. We have access to a 3D printer using ONYX plastic.
 
 # Electronic parts
 
