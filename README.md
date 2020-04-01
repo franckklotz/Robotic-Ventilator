@@ -91,8 +91,16 @@ The 7.00 inch screen is able to draw curve, so we will be able to replicate UI u
 
 Software wa in a few steps, of course we started with a POC, proof of concept, and evolve to a pre-releae.
 
-- POC : control motor based on "parameter from console"
-- STEP 01 : ensure sensor "zero" is activated and create alarm
-- STEP 02 : 
+- POC : control motor based on "parameter from console" Volume is controlled by Servo 
+- STEP 01 : ensure sensor "zero" is activated and create alarm 
+- STEP 02 : change cycle per minute based on "parameter from console :
+- STEP 03 : change ratio push, release air ( ratio 1/4 to 3/4 ) based on parameter fom console
+- STEP 04 : read pressure from multiple sensor and determine pressure from 0 - to - 60 mm
+- STEP 05 : add PID control loop based on Pressure sensor 
+- STEP 06 : add alarm for multiple alarms as per specification
+- STEP 07 : start HMI screen with +/- for Fio2 VT F ration 
+- STEP 08 : test functions and integration of HMI 
+
+
 
 
