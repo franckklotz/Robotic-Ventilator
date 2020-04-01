@@ -14,6 +14,8 @@ Thanks to Paulo Arruda and Patrick Schmitt to have "worked" some late night on b
 
 unfortunately, we could not get all parts to have a working prototype as per 31 march 2020, so we decided to share openly our idea so we can continu to build and improve around the community.
 
+The Store Closed aroud us ( Montreal, Canada ), and delivery was jumping out of range for us to have a prototype for the 31 march 2020.
+
 So please feel free to get inspired from this proposal and do not hesitate to improve.
 
 # Mechanical parts
@@ -61,13 +63,14 @@ to have a User Experience, User Interface able to replicate what the medical tea
 2 - using a smaller 3.2 inch touch screen to save cost and have more availability 
 
 the 7.00 screen is https://www.robotshop.com/ca/fr/affichage-lcd-tactile-7-nextion-hmi.html from Nextion
+
 the 3.20 screen is https://www.robotshop.com/ca/fr/affichage-lcd-tactile-hmi-32-nextion.html also from Nextion
 
 this system is for rapid deveolpement and provide a free "HMI" intreface, and also all code to interface to Arduino and other microprocessor board.
 
 you can download the software to design HMI from nextion at https://nextion.tech/
 
-there is also a cheaper version from China, but not available out of China.
+there is also a cheaper version from China, but not available outside of China.
 
 
 # Software 
