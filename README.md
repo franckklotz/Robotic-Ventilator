@@ -25,15 +25,23 @@ do not hesitate to contact us via email for any specific questions.
 the specification are the folowing :
 
 Pressure control up to 40 cmH2O, expiration pressure up to 25 cmH2O
+
 Respiration ratio from 6 to 40 breath per minute
+
 Adjustable inspiratiory time I:E ration
+
 FiO2 from 21 to 100 % in 10 % increase 
+
 Trigger time and or patient 
+
 Connect to standard mask 
+
 Dual Circuit with non rebreathing valve ( Y patient ) 
 
 humidity and temperature not controlled in our design
+
 O2 read out not in our design 
+
 O2 sensor are very expensive and "impossible to find " @ end of march 2020
 
 # Mechanical parts
