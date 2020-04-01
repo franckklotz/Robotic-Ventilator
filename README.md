@@ -95,9 +95,9 @@ These sensors would have beed used in the output of AMBU, the return from patien
 
 This Pressure sensor was also used to monitor patient respiration, in order to do "Assisted Ventilation", and of course have a software to ensure minimum respiration per minute as per standard ventilator.
 
-The precison expected using BOSCH 280 athmospherique sensor was, based on th position in the curve , from 5 to 10 %, that was the acceptable precision range fir the challenge.
+The precison expected using BOSCH 280 athmospherique sensor was, based on the position in the curve , from 5 to 10 %, that was the acceptable precision range for the challenge.
 
-Once we will get all sensor, we will also test and validate theorie.
+Once we will get all sensors, we will also test and validate theorie.
 
 Off course, these sensor do not meet the "cleaning" requirement, but this could be changed, and we will mount them in a remote small chanber connected to the main "chambers" to avoid contamination, but this is not ideal.
 
@@ -109,7 +109,7 @@ We need to finalize electric consumption to size battery.
 
 We should also add Bright LED light and Buzzer to "alarm" medical team .
 
-Again, this is considered standard equipment, from multiple vendor and we did not concentrate theses points .
+Again, this is considered standard equipment, from multiple vendor and we did not concentrate theses points.
 
 
 
@@ -134,7 +134,9 @@ The 7.00 inch screen is able to draw curve, so we will be able to replicate UI u
 
 # Final case / Box
 
-final concept including a compex box and support for the HMI LCD screen is not finalized, and need to be completed.
+final concept including a complex box and support for the HMI LCD screen is not finalized, and need to be completed.
+
+this was not our top priority and is "easy" to do once all tests are done.
 
 
 # Software 
@@ -170,4 +172,11 @@ Of course, a calibration method using "water tube" to measure pressure should al
 
 cleaning procedure is based on the AMBU procedure.
 If sensor used for Athmospheric pressure, cleaning shoud consider "replacing sensor" since cost is low, particularly if sourcing direct sensor in high volume from BOSCH or key supplier.
+
+# follow up
+
+if you are interrested of this concept using stepper motor, pid, hmi , please do not hesitate to contact us.
+
+we are still continuing to go ahead, even if the 31 march dead line is .... dead .
+
 
