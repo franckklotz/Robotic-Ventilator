@@ -101,6 +101,16 @@ Once we will get all sensor, we will also test and validate theorie.
 
 Off course, these sensor do not meet the "cleaning" requirement, but this could be changed, and we will mount them in a remote small chanber connected to the main "chambers" to avoid contamination, but this is not ideal.
 
+# Other electric parts
+
+Of course we need to have a power-supply 120-240 to 12 Volts, a Battery charger to charge a battery and keep electricity for 3 hours as per requirement, but this is more "off the shelf " equipment.
+
+We need to finalize electric consumption to size battery.
+
+We should also add Bright LED light and Buzzer to "alarm" medical team .
+
+Again, this is considered standard equipment, from multiple vendor and we did not concentrate theses points .
+
 
 
 # UI / UX interface 
@@ -121,6 +131,10 @@ you can download the software to design HMI from nextion at https://nextion.tech
 there is also a cheaper version from China, but not available outside of China.
 
 The 7.00 inch screen is able to draw curve, so we will be able to replicate UI used in actual Ventilator.
+
+# Final case / Box
+
+final concept including a compex box and support for the HMI LCD screen is not finalized, and need to be completed.
 
 
 # Software 
