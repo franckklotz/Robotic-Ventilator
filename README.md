@@ -44,6 +44,18 @@ O2 read out not in our design
 
 O2 sensor are very expensive and "impossible to find " @ end of march 2020
 
+# Concept
+
+concept 1  : ML, F and I:E adjustement via software, PEEP mechanical valve
+
+Concept 1a : ML, F and I:E adjustement via software, PEEP mechanical valve, O2 adjustement based on template based on ML/F to adjust O2 volume. ( hospital have valve to adjust flow )
+
+Concept 2  : ML, F and I:E adjustement via software, PEEP mechanical valve, but O2 adjustement via software using electrovalve that will be pulsed based on PWM in order ro mix Air / O2 ratio.
+
+Concept 3  : ML, F and I:E adjustement via software, PEEP mechanical valve, but O2 adjustement via software using electrovalve that will be pulsed based on PWM in order ro mix Air / O2 ratio, and PEEP adjustement on a exhaust chamber based on solenoid valve to exhaust. Safety valve needs to be of course implemented.
+
+please see document pdf for high level concept.
+
 # Mechanical parts
 
 The complete 3D parts and assembly is available in the specific folder. The different Ambu clone may have different dimentions but our intent is to design the claws in such way it will fit the different models destinated to support adults.
