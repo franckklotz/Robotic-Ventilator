@@ -136,10 +136,24 @@ Software wa in a few steps, of course we started with a POC, proof of concept, a
 - STEP 06 : add alarm for multiple alarms as per specification
 - STEP 07 : start HMI screen with +/- for Fio2 VT F ration 
 - STEP 08 : test functions and integration of HMI 
+- STEP 09 : calibration procedure to enter data via HMI
+- STEP 10 : burn out and validation of AMBU durability.
+
+- Prerelease once all steps are done and running 24/7 .
 
 
 
 # Calibration
 
 the calibration has to be performed using the https://www.mcmaster.com/4125K21 pressure readout.
+Calibration would be done and entered via HMI before shipment.
+
+Of course, a calibration method using "water tube" to measure pressure should also be provided to allow calibration using "basic" equipment.
+
+
+
+# Cleaning 
+
+cleaning procedure is based on the AMBU procedure.
+If sensor used for Athmospheric pressure, cleaning shoud consider "replacing sensor" since cost is low, particularly if sourcing direct sensor in high volume from BOSCH or key supplier.
 
