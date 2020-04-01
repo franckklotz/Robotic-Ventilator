@@ -35,7 +35,24 @@ Part 3D printed start with a 3D-xxxx. We have access to a 3D printer using ONYX 
 
 the main component is the stepper motor from https://www.pololu.com/product/2689 , this one is provided with the screw ( selected in design for speed of delivery reason ) but you could buy the same motor and adapt your own screw with this motor https://www.pololu.com/product/2267
 
+the motor is sized for 60 respiration per minute, see the calculation excel for sizing.
+
 # Electronic parts
+
+the electronic is designed to have a main microprocessor, based on arduino or particle.io.
+
+Arduino is well available, but the particle board have the capacity to update remotely. ( a plus during development, but a risk once running with real patient .
+
+the arduino selected was https://www.pololu.com/product/2188
+
+The microprocessor board drives a 4988 stepper motor driver https://www.pololu.com/product/1182 that is controlled usind 2 pin, direction, and pulse for "speed" . This pulse needs to be managed to reach setup speed from medic team, and can also be managed to have "S" curve for inspiration and expiration.
+
+of course, stepper motor needs to have a "zero" this could be achieved by "returning" the motor to zero and have it "mechanically" stopped, or adding a sensor for position zero and monitor this position "zero" for each positive pressure to patient.
+
+To improve a little bit more the system, and to have the pressure setup, we wanted to use Athmospheric pressure monitor based on the bosch 280 https://www.adafruit.com/product/2652 . this will allow us to compare ambiant pressure with pressure to AMBU exhaust and manage the stepper motor accordingly, using a PID loop . ( also, with bypass to ensure minimum respiration setup by DRs )
+
+
+
 
 # UI / UX interface 
 
