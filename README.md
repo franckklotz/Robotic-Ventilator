@@ -18,6 +18,8 @@ The Store Closed aroud us ( Montreal, Canada ), and delivery was jumping out of 
 
 So please feel free to get inspired from this proposal and do not hesitate to improve.
 
+do not hesitate to contact us via email for any specific questions.
+
 # Mechanical parts
 
 The complete 3D parts and assembly is available in the specific folder. The different Ambu clone may have different dimentions but our intent is to design the claws in such way it will fit the different models destinated to support adults.
