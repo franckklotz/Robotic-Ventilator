@@ -41,20 +41,34 @@ the motor is sized for 60 respiration per minute, see the calculation excel for 
 
 the electronic is designed to have a main microprocessor, based on arduino or particle.io.
 
-Arduino is well available, but the particle board have the capacity to update remotely. ( a plus during development, but a risk once running with real patient .
+Arduino is well available, but the particle board have the capacity to update remotely. ( a plus during development, but a risk once running with real patient ).
 
 the arduino selected was https://www.pololu.com/product/2188
 
 The microprocessor board drives a 4988 stepper motor driver https://www.pololu.com/product/1182 that is controlled usind 2 pin, direction, and pulse for "speed" . This pulse needs to be managed to reach setup speed from medic team, and can also be managed to have "S" curve for inspiration and expiration.
 
-of course, stepper motor needs to have a "zero" this could be achieved by "returning" the motor to zero and have it "mechanically" stopped, or adding a sensor for position zero and monitor this position "zero" for each positive pressure to patient.
+of course, stepper motor needs to have a "zero" this could be achieved by "returning" the motor to zero and have it "mechanically" stopped, or adding a sensor for position zero and monitor this position "zero" for each positive pressure to patient. The flexibility can only by achieved using a Stepper motor.
 
 To improve a little bit more the system, and to have the pressure setup, we wanted to use Athmospheric pressure monitor based on the bosch 280 https://www.adafruit.com/product/2652 . this will allow us to compare ambiant pressure with pressure to AMBU exhaust and manage the stepper motor accordingly, using a PID loop . ( also, with bypass to ensure minimum respiration setup by DRs )
 
 
 
-
 # UI / UX interface 
+
+to have a User Experience, User Interface able to replicate what the medical team is used, we selected 2 option. 
+
+1 - using a 7.00 inch touch screen
+2 - using a smaller 3.2 inch touch screen to save cost and have more availability 
+
+the 7.00 screen is https://www.robotshop.com/ca/fr/affichage-lcd-tactile-7-nextion-hmi.html from Nextion
+the 3.20 screen is https://www.robotshop.com/ca/fr/affichage-lcd-tactile-hmi-32-nextion.html also from Nextion
+
+this system is for rapid deveolpement and provide a free "HMI" intreface, and also all code to interface to Arduino and other microprocessor board.
+
+you can download the software to design HMI from nextion at https://nextion.tech/
+
+there is also a cheaper version from China, but not available out of China.
+
 
 # Software 
 
