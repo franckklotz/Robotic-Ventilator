@@ -55,6 +55,16 @@ of course, stepper motor needs to have a "zero" this could be achieved by "retur
 
 To improve a little bit more the system, and to have the pressure setup, we wanted to use Athmospheric pressure monitor based on the bosch 280 https://www.adafruit.com/product/2652 . this will allow us to compare ambiant pressure with pressure to AMBU exhaust and manage the stepper motor accordingly, using a PID loop . ( also, with bypass to ensure minimum respiration setup by DRs )
 
+These sensors would have beed used in the output of AMBU, the return from patient to monitor the PEEP pressure ( from 5 to 20 as standard PEEP pressure ), even if we wanted to use existing PEEP valve from AMBU.
+
+This Pressure sensor was also used to monitor patient respiration, in order to do "Assisted Ventilation", and of course have a software to ensure minimum respiration per minute as per standard ventilator.
+
+The precison expected using BOSCH 280 athmospherique sensor was, based on th position in the curve , from 5 to 10 %, that was the acceptable precision range fir the challenge.
+
+Once we will get all sensor, we will also test and validate theorie.
+
+Off course, these sensor do not meet the "cleaning" requirement, but this could be changed, and we will mount them in a remote small chanber connected to the main "chambers" to avoid contamination, but this is not ideal.
+
 
 
 # UI / UX interface 
@@ -74,7 +84,15 @@ you can download the software to design HMI from nextion at https://nextion.tech
 
 there is also a cheaper version from China, but not available outside of China.
 
+The 7.00 inch screen is able to draw curve, so we will be able to replicate UI used in actual Ventilator.
+
 
 # Software 
+
+Software wa in a few steps, of course we started with a POC, proof of concept, and evolve to a pre-releae.
+
+- POC : control motor based on "parameter from console"
+- STEP 01 : ensure sensor "zero" is activated and create alarm
+- STEP 02 : 
 
 
