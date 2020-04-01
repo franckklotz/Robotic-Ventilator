@@ -127,4 +127,7 @@ Software wa in a few steps, of course we started with a POC, proof of concept, a
 
 
 
+# Calibration
+
+the calibration has to be performed using the https://www.mcmaster.com/4125K21 pressure readout.
 
